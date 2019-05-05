@@ -1,0 +1,6 @@
+Run the following command for a said playlist : 
+      youtube-dl -e --get-id "<LINK TO PLAYLIST>" > title_and_comments.txt
+This will give you a list of all the titles and URLs within the playlist in the above mentioned file
+Then run 
+      https://github.com/philbot9/youtube-comment-scraper
+to scrape all comments of each Video URL in the playlist
